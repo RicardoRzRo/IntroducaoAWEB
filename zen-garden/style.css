@@ -1,0 +1,12 @@
+.principal     { color: #ED4D1C; }  /* laranja vibrante */
+.background    { color: #40AD91; }  /* verde menta */
+.verde-neon    { color: #1CEDB6; }  /* verde neon */
+.marrom-claro  { color: #985845; }  /* marrom claro */
+.verde-escuro  { color: #446E63; }  /* verde acinzentado */
+.marrom-escuro { color: #453B38; }  /* marrom escuro */
+
+html {
+  background-color: #453B38;  /* marrom escuro (fundo da página) */
+  color: #40AD91;             /* verde menta (texto padrão) */
+}
+
