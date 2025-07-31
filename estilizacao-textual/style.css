@@ -1,0 +1,38 @@
+.principal     { color: #ED4D1C; }  /* laranja vibrante */
+.background    { color: #40AD91; }  /* verde menta */
+.verde-neon    { color: #1CEDB6; }  /* verde neon */
+.marrom-claro  { color: #985845; }  /* marrom claro */
+.verde-escuro  { color: #446E63; }  /* verde acinzentado */
+.marrom-escuro { color: #453B38; }  /* marrom escuro */
+
+html {
+  background-color: #453B38;  /* marrom escuro (fundo da página) */
+  color: #40AD91;             /* verde menta (texto padrão) */
+  
+  font-size: 20px; /* 1rem = 20px */
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+p {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: normal;
+
+  line-height: 1.0;
+  
+  text-decoration: none;
+  text-indent: 1em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {font-size: 1.8rem; /* 36px */}
+h2 {font-size: 1.4rem; /* 28px */}
+h3 {font-size: 1.2rem; /* 24px */}
+
+.summary {text-align: right;}
+
+.main p {line-height: 1.5;}
+
