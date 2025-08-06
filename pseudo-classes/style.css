@@ -65,24 +65,6 @@ Aplique uma borda inferior apenas no último item da lista
 }
 
 /*
-4. Inclua uma linha no topo e embaixo das seções de benefícios e participação, utilizando a
-
-propriedade border-bottom e border-top respectivamente.
-
-- Remova a ocorrência de borda duplicada entre as duas seções
-*/
-
-.benefits {
-  border-top: #40AD91 solid 1px;
-  border-bottom: #40AD91 solid 1px;
-}
-
-.participation {
-  border-top: #40AD91 solid 1px;
-  border-bottom: #40AD91 solid 1px;
-}
-
-/*
 Corpo style
 */
 
@@ -225,4 +207,5 @@ h3 {font-size: 1.2rem; /* 24px */}
 .summary {text-align: right;}
 
 .main p {line-height: 1.5;}
+
 
