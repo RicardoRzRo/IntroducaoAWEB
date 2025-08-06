@@ -1,0 +1,49 @@
+/* 
+Exercício 1: Calcule em pixels o tamanho da fonte dos elementos
+Base: html { font-size: 20px; }
+*/
+
+/* html -> define a base do rem */
+html {
+  font-size: 20px; /* 1rem = 20px */
+}
+
+/* h1 -> 2rem = 2 * 20px = 40px */
+html h1 {
+  font-size: 2rem; /* RESPOSTA: 40px */
+}
+
+/* .principal (filho direto de h1) -> 1.4em = 1.4 * 40px = 56px */
+h1 > .principal {
+  font-size: 1.4em; /* RESPOSTA: 56px */
+}
+
+/* .secundario -> 1.4rem = 1.4 * 20px = 28px */
+html .secundario {
+  font-size: 1.4rem; /* RESPOSTA: 28px */
+}
+
+/* 
+Exercício 2: Variações de cor para rgb(219, 78, 68)
+Original: rgb(219, 78, 68)
+Mais clara: aumentar 15% nos canais → rgb(255, 116, 106)
+Mais escura: diminuir 15% dos canais → rgb(186, 66, 58)
+*/
+
+/* Cor original */
+.exemplo-original {
+  background-color: rgb(219, 78, 68); /* Cor original */
+  color: white;
+}
+
+/* 15% mais clara */
+.exemplo-clara {
+  background-color: rgb(252, 90, 78); /* RESPOSTA: mais clara */
+  color: black;
+}
+
+/* 15% mais escura */
+.exemplo-escura {
+  background-color: rgb(186, 66, 58); /* RESPOSTA: mais escura */
+  color: white;
+}
